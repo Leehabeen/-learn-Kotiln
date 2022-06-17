@@ -1,0 +1,27 @@
+fun main() {
+    
+    val score = 80;
+    
+    /*학생 점수가
+     * 100 초과시 A
+     * 90 초과시 B
+     * 80 초과시 c
+     * 70 초과시 D
+     * 70이하시 F를 준다
+     */
+    if(score >100){
+        println("A");
+    }
+    else if(score > 90){
+        println("B");
+    }
+    else if(score > 80){
+        println("C");
+    }
+    else if(score > 70){
+    println("D");
+    }
+    else{
+        print("F");
+    }
+}
