@@ -1,0 +1,43 @@
+fun main() {
+    
+    val score1 = 80;
+    
+   
+    if (score1 > 150){
+        println("150이 상")
+    }
+    else{
+        println("150 이상이 아님")
+    }
+    
+    val score2 = 50
+    if(score2 > 50){
+        println("50을 초과")
+    }
+    if(score2 >= 50){
+        println("50 이상")
+    }
+    
+    val score3 = 70
+    if(socre3 < 70){
+        println("70미만")
+    }
+    if(socre3 <= 70){
+        println("70이하")
+    }
+    
+    val score4 = 80
+    
+    if(score4 > 100){
+        println("100보다 큼")
+    }
+   else if(score4 > 50){
+       println("50보다 큼")
+   }
+   else if(score4 > 30){
+       println("30보다 큼")
+   }
+   else if(score4 < 30){
+       println("30보다 작음")
+   }
+}
