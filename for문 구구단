@@ -1,0 +1,10 @@
+fun main() {
+ 
+    for (i in 2..9){
+        for(j in 1..9){
+            var result = i * j
+            println("$i * $j : $result")
+        }
+    }
+    
+}
