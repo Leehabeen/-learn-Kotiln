@@ -1,0 +1,31 @@
+fun main() {
+ 
+    val testList1 = ArrayList<String>()
+    testList1.add("a")
+    testList1.add("b")
+    testList1.add("c")
+    
+    println(testList1)
+    println(testList1[0])
+    println(testList1[1])
+    println(testList1[2])
+    
+    val testList2 = listOf("a", "b", "c")
+    println(testList2)
+    
+    val testList3 = mutableListOf<String>("a", "b", "c")
+    println(testList3)
+    testList3.add("d")
+    
+    println(testList3)
+    
+    
+    val testList4 = listOf("student1", "student2", "student3", "student4","teacher1", "student5")
+    println(testList4)
+   
+ 	    val testList5 = listOf("student1", "student2", "student3", "student4","teacher1", "student5", null)
+        println(testList5)
+        println(testList5.filter { it.startsWith("s")})
+        println(testList5.filterNotNull().filter { it.startsWith("s")})
+
+}
